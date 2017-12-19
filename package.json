@@ -18,5 +18,9 @@
     "redux-form": "^7.2.0",
     "redux-form-material-ui": "^4.3.1",
     "styled-components": "^2.2.4"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
   }
 }
