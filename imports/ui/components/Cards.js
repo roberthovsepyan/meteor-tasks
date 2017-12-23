@@ -47,7 +47,7 @@ Cards = withTracker(() => {
     let handle = Meteor.subscribe('cards');
     return {
         ready: handle.ready(),
-        cardsDB: CardsDB.find({owner: this.userId}, {sort: {createdAt: 1}, fields: {_id: 1, name: 1, createdAt: 1}}).fetch()
+        cardsDB: CardsDB.find().fetch()
     };
 })(Cards);
 
